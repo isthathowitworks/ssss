@@ -71,7 +71,7 @@ body {
 /* Hero Section */
 .hero {
     height: 640px;
-    background: linear-gradient(135deg, #ff4d4d, #4d79ff);
+    background: linear-gradient(135deg, #008B8B, #D3D3D3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,6 +279,44 @@ body {
 }
 
 .add-to-cart:hover {
+    background-color: #e63939;
+}
+
+.see-more-container1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.see-more-button1 {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.see-more-button1:hover {
+    background-color: #e63939;
+}
+
+.see-more-container2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.see-more-button2 {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.see-more-button2:hover {
     background-color: #e63939;
 }
 
